@@ -1,3 +1,32 @@
+Main Product License
+====================
+
+Delivery Area for WooCommerce
+------------
+- Copyright: 2020 Arnaud Pfundstein
+- License: GPLv3
+- License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+
+
+Third Party Code Credits
+========================
+
+WordPress
+-----------
+- File Location: (various files)
+- License: GPLv2+
+- License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+WooCommerce
+-----------
+- File Location: (various files)
+- License: GPLv2+
+- License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+GPLv3
+=====
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -672,3 +701,91 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+
+WordPress License (see above for full GPLv3 text)
+=================================================
+
+WordPress - Web publishing software
+
+Copyright 2011-2019 by the contributors
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+This program incorporates work covered by the following copyright and
+permission notices:
+
+  b2 is (c) 2001, 2002 Michel Valdrighi - m@tidakada.com -
+  http://tidakada.com
+
+  Wherever third party code has been used, credit has been given in the code's
+  comments.
+
+  b2 is released under the GPL
+
+and
+
+  WordPress - Web publishing software
+
+  Copyright 2003-2010 by the contributors
+
+  WordPress is released under the GPL
+
+
+
+Divi License (see above for full GPLv3 text)
+============================================
+
+> Copyright (C) Elegant Themes, Inc.
+> http://www.elegantthemes.com
+
+Divi is a WordPress theme and website builder created by Elegant Themes. This
+software is released under the The GNU General Public License, Version 2. Divi
+makes use of third party open source code from several different sources. Where
+possible, this code has been clearly labeled and associated copyright and license
+information has been included in the files themselves. You can also refer to 
+CREDITS.md for a full list of open source software used and their associated licenses, 
+patent grants and copyright information. Open source Software that has been minified 
+and bundled is listed in the CREDITS.md file for your convenience. 
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR 
+A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+
+
+Animsition License
+============================================
+
+
+Animsition by @blivesta - http://blivesta.com/ - @animsition
+A simple and easy jQuery plugin for CSS animated page transitions.
+
+/*!
+ * Animsition Free by @blivesta - http://blivesta.github.io/animsition
+ * License - https://opensource.org/licenses/MIT
+ */
+
+Copyright 2018 Dave Gandy and FontAwesome
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+

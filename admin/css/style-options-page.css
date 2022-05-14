@@ -1,0 +1,811 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-SemiBoldItalic.ttf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-ExtraLight.ttf");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../fonts/Montserrat-Thin.ttf");
+    font-weight: 100;
+    font-style: normal;
+}
+
+#wpcontent {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+.notice-success {
+    display: none !important;
+}
+
+#wpwrap {
+    background-color: #EBECF0;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+#daw_options_form .inputs-container div, #daw_options_form .inputs-container p {
+    color: #BABECC;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+#daw_options_form {
+    display: flex;
+    /* height: calc(100vh - 32px - 65px - 40px); */
+    /*     top: 100px;
+    left: 0; */
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.dawf-content {
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto 400px;
+}
+
+#daw_options_form * {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.inputs-container {
+    width: 400px;
+}
+
+#daw_options_form .segment {
+    padding: 32px 0;
+    text-align: center;
+}
+
+#daw_options_form .title-container {
+    padding: 32px 0;
+    text-align: center;
+}
+
+#daw_options_form .title-container h2 {
+    font-weight: bold;
+}
+
+#daw_options_form .inputs-container .button, #daw_options_form .inputs-container button {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+}
+
+#daw_options_form .inputs-container input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+}
+
+#daw_options_form .inputs-container label .input-label {
+    color: #0c0c0c;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.link-btn {
+    margin-bottom: 24px;
+    display: block;
+}
+
+#daw_options_form .inputs-container .link-btn .button, #daw_options_form .inputs-container .link-btn button {
+    text-decoration: none;
+    width: 100%;
+    background-color: #117B9E;
+    text-shadow: none;
+    color: white;
+}
+
+#daw_options_form .inputs-container .save-btn {
+    text-decoration: none;
+    width: 100%;
+    background-color: #02d294;
+    text-shadow: none;
+    color: white;
+    margin: 24px 0;
+    box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+}
+
+#daw_options_form .inputs-container .save-btn:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+#daw_options_form .inputs-container span {
+    margin-left: 10px;
+}
+
+#daw_options_form .inputs-container label {
+    display: block;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+#daw_options_form .inputs-container input {
+    margin-right: 8px;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    -moz-appearance: none;
+         appearance: none;
+    -webkit-appearance: none;
+}
+
+#daw_options_form .inputs-container input:focus {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+#daw_options_form .inputs-container .button, #daw_options_form .inputs-container button {
+    color: #61677C;
+    font-weight: bold;
+    box-shadow: -5px -5px 16px #FFF, 5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#daw_options_form .inputs-container .button:hover, #daw_options_form .inputs-container button:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+
+#daw_options_form .inputs-container .button:active, #daw_options_form .inputs-container button:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+#daw_options_form .inputs-container .button .icon, #daw_options_form .inputs-container button .icon {
+    margin-right: 8px;
+}
+
+#daw_options_form .inputs-container .button.unit, #daw_options_form .inputs-container button.unit {
+    border-radius: 8px;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19.2px;
+}
+
+#daw_options_form .inputs-container .button.unit .icon {
+    margin-right: 0;
+}
+
+#daw_options_form .inputs-container .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#daw_options_form .inputs-container .input-group label {
+    margin: 0;
+    flex: 1;
+}
+
+.success-animation {
+    position: absolute;
+    margin-left: 50%;
+    top: 30vh;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: all 1s ease-in-out;
+    opacity: 1;
+}
+
+.success-animation img {
+    width: 500px;
+}
+
+/* SELECTOR =================================================== */
+
+/*Styling Selectbox*/
+
+.dropdown {
+    width: 100%;
+    display: inline-block;
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left;
+    border-radius: 8px;
+}
+
+#daw_options_form .inputs-container .dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px 16px;
+    color: #2c3338;
+    font-size: 16px;
+    line-height: 2;
+    border-radius: 8px;
+}
+
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+
+#daw_options_form .inputs-container .dropdown.active .select {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.dropdown #dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: calc( 100% - 8px);
+    left: 4px;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204 204 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    height: 260px;
+    max-height: 40vh;
+    overflow-y: auto;
+    z-index: 9;
+    border-radius: 0 0 8px 8px;
+    padding: 0;
+    list-style: none
+}
+
+.dropdown #dropdown-menu li {
+    padding: 10px 36px;
+    color: #777777;
+    line-height: 2;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.dropdown #dropdown-menu li:before {
+    content: "";
+    background-color: #d2d2d7;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: calc( 100% - 40px);
+}
+
+.dropdown #dropdown-menu li:first-child:before {
+    content: none;
+}
+
+.dropdown #dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+
+.dropdown #dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+
+#dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+#dropdown-menu::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+#dropdown-menu::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+
+#dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #d8d8d8;
+}
+
+#dropdown-menu::-webkit-scrollbar-thumb:active {
+    background: #616161;
+}
+
+/* API STATUS */
+
+#daw_options_form .inputs-container .api-elements {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    margin-top: 6px;
+    row-gap: 6px;
+    width: 100%;
+    cursor: default;
+}
+
+#daw_options_form .inputs-container .api-elements .api-label {
+    color: #2d3033;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#daw_options_form .inputs-container .api-elements .api-label::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0c0c0c;
+}
+
+#daw_options_form .inputs-container .api-status-container span {
+    color: #0c0c0c;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* PROMO ===========================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
+================================================================================================= */
+
+
+
+
+
+/* comparative table */
+
+#daw-comparative-options{
+    margin-left: 50%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    transform: translateX(-50%);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display:flex;
+    align-items: flex-end;
+    font-family: "Poppins";
+}
+
+.table-labels, .table-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.table-labels{
+    background-color: #6262fe;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px 0 0 10px;
+    font-size: 14px;
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    min-width: 260px;
+    text-transform: capitalize;
+}
+
+.table-cell{
+    height: 40px;
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+.table-column{
+    min-width: 300px;
+}
+
+.table-column .table-cell{
+    background-color: #fff;
+}
+
+.table-column .table-cell:nth-child(2n){
+    background-color: #f8f8f8
+}
+
+.table-column .table-cell{
+    justify-content: center;
+}
+
+.table-column .table-cell img{
+    width: 30px;
+}
+
+.table-column .column-title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #fff;
+    height: 100px;
+    row-gap: 12px;
+    color: #6262fe;
+    font-weight: 700;
+    font-size: 27px;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.free-plugin .column-title{
+    border-radius: 10px 0 0 0;
+}
+
+.premium-plugin{
+    transform: scale(1.1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 70px 0 rgb(117 117 117 / 22%), 0 15px 105px 0 rgb(23 23 23 / 22%);
+}
+
+.premium-plugin .column-title{
+    background-color: #6262fe;
+    color: white;
+}
+
+.premium-plugin .column-title a{
+    color: #57FFA6;
+    text-transform: none;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    position: relative;
+}
+
+.premium-plugin .column-title a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 5px;
+    width: 0;
+    transition: all .3s cubic-bezier(0.16, 0.98, 0.59, 1.15);
+    background-color: #57FFA6;
+}
+
+.premium-plugin .column-title a:hover{
+    color: #22ff89;
+}
+
+.premium-plugin .column-title a:hover:after{
+    width: 100%;
+    background-color: #22ff89;
+}
+
+.comparative-end{
+    background-color: #6262fe;
+    border-radius: 0 10px 10px 0;
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+    height: 480px;
+    min-width: 80px;
+}
+
+
+/* MAP PART ========================================================================================
+====================================================================================================
+====================================================================================================
+====================================================================================================
+================================================================================================= */
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+
+#map, #dawzones_id {
+    height: 700px;
+}
+
+/* INPUT AUTOCOMPLETE STYLE */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+#pac-container * {
+    box-sizing: unset;
+}
+
+#pac-container {
+    padding: 0;
+    margin: 5px;
+    border: 0;
+    width: 270px;
+    height: 30px;
+    box-sizing: unset;
+}
+
+.icons-container {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+}
+
+.icon-close {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 75%;
+    height: 75%;
+    opacity: 0;
+    cursor: pointer;
+    transform: translateX(-200%);
+    border-radius: 50%;
+    transition: opacity 0.25s ease, transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1);
+}
+
+.icon-close:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border: 2px solid transparent;
+    border-top-color: #6078EA;
+    border-left-color: #6078EA;
+    border-bottom-color: #6078EA;
+    transition: opacity 0.2s ease;
+}
+
+.icon-close .x-up {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.icon-close .x-up:before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 3px;
+    width: 50%;
+    height: 2px;
+    background-color: #6078EA;
+    transform: rotate(45deg);
+}
+
+.icon-close .x-up:after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+    width: 50%;
+    height: 2px;
+    background-color: #6078EA;
+    transform: rotate(-45deg);
+}
+
+.icon-close .x-down {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.icon-close .x-down:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    width: 50%;
+    height: 2px;
+    background-color: #6078EA;
+    transform: rotate(-45deg);
+}
+
+.icon-close .x-down:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 1px;
+    width: 50%;
+    height: 2px;
+    background-color: #6078EA;
+    transform: rotate(45deg);
+}
+
+.is-type .icon-close .x-up:after {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+
+.is-type .icon-close .x-down:before {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+
+.is-type .icon-close .x-down:after {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+}
+
+.icon-search {
+    position: relative;
+    top: 5px;
+    left: 8px;
+    width: 50%;
+    height: 50%;
+    opacity: 1;
+    border-radius: 50%;
+    border: 3px solid #c7d0f8;
+    transition: opacity 0.25s ease, transform 0.43s cubic-bezier(0.694, 0.048, 0.335, 1);
+}
+
+.icon-search:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    right: -2px;
+    width: 4px;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    height: 10px;
+    background-color: #c7d0f8;
+}
+
+#pac-input {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 8px 15px rgba(75, 72, 72, 0.1);
+    transition: all 0.4s ease;
+    font-size: 16px;
+    line-height: 18.4px;
+}
+
+#pac-input:focus {
+    outline: none;
+    box-shadow: 0px 9px 20px rgba(75, 72, 72, 0.3);
+}
+
+#pac-input:focus+.icons-container .icon-close {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#pac-input:focus+.icons-container .icon-search {
+    opacity: 0;
+    transform: translateX(200%);
+}
+
+.bin-container {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    height: 60px;
+    width: 60px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    transform: translateX(0);
+}
+
+.bin-container.hidden {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.bin-container .bin {
+    background: none rgb(255, 255, 255);
+    border: 0px;
+    margin: 10px;
+    padding: 0px;
+    text-transform: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: absolute;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
